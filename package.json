@@ -1,0 +1,23 @@
+{
+  "name": "arijit-dark",
+  "displayName": "arijit/dark",
+  "publisher": "arijitdn",
+  "description": "A dark theme for VS Code which can replace any of your existing themes.",
+  "icon": "images/arijit.jpg",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "arijit/dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arijitdark-color-theme.json"
+      }
+    ]
+  }
+}
